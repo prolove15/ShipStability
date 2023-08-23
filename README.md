@@ -1,4 +1,4 @@
-# ShipStability
+# Ship's Stability
 
 ![Ship Github 00_00_08 20230823-233233](https://github.com/blight15a/ShipStability/assets/125852184/7131cc1f-9cfe-481c-b5f2-058383a9c41a)
 
@@ -28,6 +28,6 @@ Understanding ship stability is pivotal for anyone interested in ships, from mar
 
 Embark on a journey of discovery with our Ship Stability Educational App. Unravel the mysteries that lie beneath the calm waters, and gain a profound appreciation for the delicate balance that keeps ships afloat. Whether you're a scholar, a seafarer, or simply intrigued by the world of ships, our Unity-powered app invites you to set sail into the captivating realm of ship stability.
 
-## Watch the Video
+## Please watch the Video
 
-[![Watch the Video](https://user-images.githubusercontent.com/125852184/262705022-8f4ccb30-06a2-49df-9bdb-302d5e4cb575.png)](https://clipchamp.com/watch/bTYcmndWlbg)
+[![Watch the Video](https://user-images.githubusercontent.com/125852184/262705022-8f4ccb30-06a2-49df-9bdb-302d5e4cb575.png)](https://clipchamp.com/watch/bTYcmndWlbg/embed)
