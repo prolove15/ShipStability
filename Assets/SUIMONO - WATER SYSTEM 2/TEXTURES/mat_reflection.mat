@@ -1,0 +1,394 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: mat_reflection
+  m_Shader: {fileID: 4800000, guid: 0aa78303d1e6d8347bb50e196b668886, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _CubeTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _FoamTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _WaveTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 4bb7926cdb8c95a468b69d8186a4265b, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ReflectionTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _WaveLargeTex
+        second:
+          m_Texture: {fileID: 2800000, guid: d821b0de499f79e41aebacf35f08f712, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Surface1
+        second:
+          m_Texture: {fileID: 2800000, guid: d821b0de499f79e41aebacf35f08f712, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Surface2
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _WaveRamp
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DepthRamp
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BlurRamp
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _FoamRamp
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _FlowMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _WaveMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _FoamOverlay
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _CubeMobile
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _TestHeight1
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _TestHeight2
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NoiseMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DisplaceMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Tess
+        second: 4
+      data:
+        first:
+          name: _minDist
+        second: 10
+      data:
+        first:
+          name: _maxDist
+        second: 25
+      data:
+        first:
+          name: _HeightFoamSpread
+        second: 2
+      data:
+        first:
+          name: _ReflDist
+        second: 10
+      data:
+        first:
+          name: _ReflBlend
+        second: .00300000003
+      data:
+        first:
+          name: _Displacement
+        second: .300000012
+      data:
+        first:
+          name: _MaskAmt
+        second: 1
+      data:
+        first:
+          name: _WaveHeight
+        second: 0
+      data:
+        first:
+          name: _WaveShoreHeight
+        second: 0
+      data:
+        first:
+          name: _WaveScale
+        second: .419999987
+      data:
+        first:
+          name: _CenterHeight
+        second: 0
+      data:
+        first:
+          name: _MaxVariance
+        second: 3
+      data:
+        first:
+          name: _RefrStrength
+        second: 25
+      data:
+        first:
+          name: _RefrSpeed
+        second: .5
+      data:
+        first:
+          name: _RefrScale
+        second: .5
+      data:
+        first:
+          name: _SpecScatterWidth
+        second: .200000003
+      data:
+        first:
+          name: _SpecScatterAmt
+        second: 1
+      data:
+        first:
+          name: _ReflBlur
+        second: .00999999978
+      data:
+        first:
+          name: _DepthAmt
+        second: .100000001
+      data:
+        first:
+          name: _BlurSpread
+        second: .00999999978
+      data:
+        first:
+          name: _FoamHeight
+        second: 5
+      data:
+        first:
+          name: _HeightFoamAmount
+        second: 1
+      data:
+        first:
+          name: _FoamSpread
+        second: .5
+      data:
+        first:
+          name: _EdgeSpread
+        second: .00200000009
+      data:
+        first:
+          name: _BumpStrength
+        second: .899999976
+      data:
+        first:
+          name: _ReflectStrength
+        second: 1
+      data:
+        first:
+          name: _MasterScale
+        second: 1
+      data:
+        first:
+          name: _UnderReflDist
+        second: 1
+      data:
+        first:
+          name: _FlowScale
+        second: 2
+      data:
+        first:
+          name: _TideAmount
+        second: 1
+      data:
+        first:
+          name: _TideSpread
+        second: .400000006
+      data:
+        first:
+          name: _AnimSpeed
+        second: 1
+      data:
+        first:
+          name: _ShoreAmt
+        second: 1
+      data:
+        first:
+          name: _WaveAmt
+        second: .100000001
+      data:
+        first:
+          name: _WaveStretch
+        second: 0
+      data:
+        first:
+          name: _NormalAmt
+        second: .100000001
+      data:
+        first:
+          name: _FlowWave
+        second: .00999999978
+      data:
+        first:
+          name: _Emissive
+        second: 1.5
+      data:
+        first:
+          name: _SpecStrength
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _FoamColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _DynReflColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _DepthColor
+        second: {r: .25, g: .25, b: .5, a: 1}
+      data:
+        first:
+          name: _HighColor
+        second: {r: 1, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _LowColor
+        second: {r: 0, g: 1, b: 0, a: .100000001}
+      data:
+        first:
+          name: _SpecColorH
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _SpecColorL
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _DepthColorR
+        second: {r: .25, g: .25, b: .5, a: 1}
+      data:
+        first:
+          name: _DepthColorG
+        second: {r: .25, g: .25, b: .5, a: 1}
+      data:
+        first:
+          name: _DepthColorB
+        second: {r: .25, g: .25, b: .5, a: 1}
+      data:
+        first:
+          name: _EdgeColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _UnderColor
+        second: {r: .25, g: .25, b: .5, a: 1}
+      data:
+        first:
+          name: _TideColor
+        second: {r: 0, g: 0, b: .200000003, a: 1}
+      data:
+        first:
+          name: _DiffuseColor
+        second: {r: .5, g: .5, b: 1, a: 1}
+      data:
+        first:
+          name: _HighlightCol
+        second: {r: .5, g: .5, b: 1, a: 1}
+      data:
+        first:
+          name: _ReflColor
+        second: {r: 1, g: 1, b: 1, a: .5}
+      data:
+        first:
+          name: _WetColor
+        second: {r: .25, g: .25, b: .5, a: 1}

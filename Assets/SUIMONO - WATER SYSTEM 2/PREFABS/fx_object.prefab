@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11461084}
+  m_Layer: 0
+  m_Name: fx_object
+  m_TagString: Untagged
+  m_Icon: {fileID: -2036504979, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.04248905, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11461084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65a4ce0a869cb2a41ab7d63343eced69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fxObject: {fileID: 0}
+  effectRule: 
+  effectData: []
+  resetRule: 
+  effectSystemName: []
+  effectSystem: 
+  effectDelay: {x: 1, y: 1}
+  emitTime: {x: 1, y: 1}
+  emitNum: {x: 1, y: 4}
+  effectSize: {x: 0.5368, y: 0.72631}
+  emitSpeed: 0.05
+  speedThreshold: 0
+  directionMultiplier: 0
+  emitAtWaterLevel: 1
+  effectDistance: 100
+  audioObj: {fileID: 8300000, guid: c602b9eea54a6d64d8464120f49341c6, type: 3}
+  audioVol: {x: 0.9, y: 1}
+  audioPit: {x: 0.6, y: 1.2545455}
+  audioSpeed: 0.25
+  enableEvents: 0
+  tintCol: {r: 1, g: 1, b: 1, a: 1}
+  clampRot: 0
+  actionIndex: 1
+  actionNum: 15
+  actionReset: 15
+  typeIndex: 0
+  ruleIndex: 
+  systemIndex: 1
+  sysNames:
+  - None
+  - fx_Splash
+  - 'fx_rippleNormals '
+  - 'fx_mist_hotspring  '
+  - 'fx_mist_waterfall   '
+  - 'fx_mist_fog    '
+  - 'fx_boatwake     '
+  - 'fx_bubbles      '
+  - 'fx_SplashSmall       '
+  - 'fx_waterfall        '
+  currentSpeed: 0
+  eventInterval: 1
+  eventAtSurface: 0

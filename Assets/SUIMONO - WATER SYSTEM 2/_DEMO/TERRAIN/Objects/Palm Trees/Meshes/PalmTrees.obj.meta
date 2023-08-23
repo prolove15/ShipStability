@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: e362c97d29f2e4a41a797c4b0b7e4e3f
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: PalmTree_dual_bended_leafs_1sided
+    100002: PalmTree_dual_bended_leafs_2sided
+    100004: PalmTree_dual_bended_trunk
+    100006: PalmTree_dual_leafs_1sided
+    100008: PalmTree_dual_leafs_2sided
+    100010: PalmTree_dual_trunk
+    100012: PalmTree_single_bended_leafs_1sided
+    100014: PalmTree_single_bended_leafs_2sided
+    100016: PalmTree_single_bended_trunk
+    100018: PalmTree_single_leafs_1sided
+    100020: PalmTree_single_leafs_2sided
+    100022: PalmTree_single_trunk
+    100024: PalmTree_trio_leafs_1sided
+    100026: PalmTree_trio_leafs_2sided
+    100028: PalmTree_trio_trunk
+    100030: //RootNode
+    400000: PalmTree_dual_bended_leafs_1sided
+    400002: PalmTree_dual_bended_leafs_2sided
+    400004: PalmTree_dual_bended_trunk
+    400006: PalmTree_dual_leafs_1sided
+    400008: PalmTree_dual_leafs_2sided
+    400010: PalmTree_dual_trunk
+    400012: PalmTree_single_bended_leafs_1sided
+    400014: PalmTree_single_bended_leafs_2sided
+    400016: PalmTree_single_bended_trunk
+    400018: PalmTree_single_leafs_1sided
+    400020: PalmTree_single_leafs_2sided
+    400022: PalmTree_single_trunk
+    400024: PalmTree_trio_leafs_1sided
+    400026: PalmTree_trio_leafs_2sided
+    400028: PalmTree_trio_trunk
+    400030: //RootNode
+    2300000: PalmTree_dual_bended_leafs_1sided
+    2300002: PalmTree_dual_bended_leafs_2sided
+    2300004: PalmTree_dual_bended_trunk
+    2300006: PalmTree_dual_leafs_1sided
+    2300008: PalmTree_dual_leafs_2sided
+    2300010: PalmTree_dual_trunk
+    2300012: PalmTree_single_bended_leafs_1sided
+    2300014: PalmTree_single_bended_leafs_2sided
+    2300016: PalmTree_single_bended_trunk
+    2300018: PalmTree_single_leafs_1sided
+    2300020: PalmTree_single_leafs_2sided
+    2300022: PalmTree_single_trunk
+    2300024: PalmTree_trio_leafs_1sided
+    2300026: PalmTree_trio_leafs_2sided
+    2300028: PalmTree_trio_trunk
+    3300000: PalmTree_dual_bended_leafs_1sided
+    3300002: PalmTree_dual_bended_leafs_2sided
+    3300004: PalmTree_dual_bended_trunk
+    3300006: PalmTree_dual_leafs_1sided
+    3300008: PalmTree_dual_leafs_2sided
+    3300010: PalmTree_dual_trunk
+    3300012: PalmTree_single_bended_leafs_1sided
+    3300014: PalmTree_single_bended_leafs_2sided
+    3300016: PalmTree_single_bended_trunk
+    3300018: PalmTree_single_leafs_1sided
+    3300020: PalmTree_single_leafs_2sided
+    3300022: PalmTree_single_trunk
+    3300024: PalmTree_trio_leafs_1sided
+    3300026: PalmTree_trio_leafs_2sided
+    3300028: PalmTree_trio_trunk
+    4300000: PalmTree_dual_bended_leafs_1sided
+    4300002: PalmTree_dual_bended_leafs_2sided
+    4300004: PalmTree_dual_bended_trunk
+    4300006: PalmTree_dual_leafs_1sided
+    4300008: PalmTree_dual_leafs_2sided
+    4300010: PalmTree_dual_trunk
+    4300012: PalmTree_single_bended_leafs_1sided
+    4300014: PalmTree_single_bended_leafs_2sided
+    4300016: PalmTree_single_bended_trunk
+    4300018: PalmTree_single_leafs_1sided
+    4300020: PalmTree_single_leafs_2sided
+    4300022: PalmTree_single_trunk
+    4300024: PalmTree_trio_leafs_1sided
+    4300026: PalmTree_trio_leafs_2sided
+    4300028: PalmTree_trio_trunk
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0700000003
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 

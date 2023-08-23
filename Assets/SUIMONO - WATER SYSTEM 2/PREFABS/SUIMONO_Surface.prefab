@@ -1,0 +1,746 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6873994170279649175
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6873994170279649174}
+  - component: {fileID: 6873994170279649171}
+  - component: {fileID: 6873994170279649172}
+  - component: {fileID: 6873994170279649173}
+  m_Layer: 8
+  m_Name: Suimono_ObjectScale
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6873994170279649174
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6873994170279649175}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.05, z: 0}
+  m_LocalScale: {x: 25, y: 1, z: 25}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6873994171610052523}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6873994170279649171
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6873994170279649175}
+  m_Mesh: {fileID: 4300002, guid: f301f5ef8755d3d46b73665135298c4c, type: 3}
+--- !u!64 &6873994170279649172
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6873994170279649175}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: f301f5ef8755d3d46b73665135298c4c, type: 3}
+--- !u!23 &6873994170279649173
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6873994170279649175}
+  m_Enabled: 0
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: df4f3b7f86753fe4dbd3dc92a60ce25e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &6873994170500343264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6873994170500343260}
+  - component: {fileID: 6873994170500343261}
+  - component: {fileID: 6873994170500343262}
+  - component: {fileID: 6873994170500343263}
+  m_Layer: 8
+  m_Name: Suimono_Object
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6873994170500343260
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6873994170500343264}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6873994171610052523}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6873994170500343261
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6873994170500343264}
+  m_Mesh: {fileID: 4300000, guid: f301f5ef8755d3d46b73665135298c4c, type: 3}
+--- !u!64 &6873994170500343262
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6873994170500343264}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300006, guid: f301f5ef8755d3d46b73665135298c4c, type: 3}
+--- !u!23 &6873994170500343263
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6873994170500343264}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &6873994170741836964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6873994170741836960}
+  - component: {fileID: 6873994170741836961}
+  - component: {fileID: 6873994170741836958}
+  - component: {fileID: 6873994170741836959}
+  m_Layer: 8
+  m_Name: cam_LocalReflections
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6873994170741836960
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6873994170741836964}
+  m_LocalRotation: {x: -0.00000000302724, y: 0.99883753, z: 1.4609317e-10, w: -0.048203424}
+  m_LocalPosition: {x: 10.730011, y: 2.4510002, z: 24.279999}
+  m_LocalScale: {x: 1.0001969, y: 1, z: 1.0547462}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6873994171610052523}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &6873994170741836961
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6873994170741836964}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
+  m_projectionMatrixMode: 0
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 1
+  far clip plane: 1000
+  field of view: 50
+  orthographic: 0
+  orthographic size: 100
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_RenderingPath: 1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!114 &6873994170741836958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6873994170741836964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fdfe3ca26841a84e97bd603013cc573, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraType: 5
+  renderType: 0
+  hdrMode: 0
+  clearMode: 0
+  clearFlagColor: {r: 0, g: 0, b: 0, a: 1}
+  resolution: 512
+  cameraOffset: 0
+  reflectionOffset: 0
+  renderTexDiff: {fileID: 0}
+  renderShader: {fileID: 0}
+  executeInEditMode: 0
+  isUnderwater: 0
+  surfaceRenderer: {fileID: 6873994170500343263}
+  scaleRenderer: {fileID: 6873994170279649173}
+  reflectionDistance: 1200
+  setLayers: 1
+--- !u!114 &6873994170741836959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6873994170741836964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc87271197c85734d95f97b5ad973718, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blurAmt: 0.25
+  iterations: 3
+  blurSpread: 0.6
+  blurShader: {fileID: 4800000, guid: 5e9003253784194439ec34bded8691e5, type: 3}
+  material: {fileID: 0}
+  downsample: 1
+  blurSize: 3
+--- !u!1 &6873994171610052527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6873994171610052523}
+  - component: {fileID: 6873994171610052526}
+  m_Layer: 8
+  m_Name: SUIMONO_Surface
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6873994171610052523
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6873994171610052527}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 235.79, y: 11.589, z: 209.59}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6873994170500343260}
+  - {fileID: 6873994170279649174}
+  - {fileID: 6873994170741836960}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6873994171610052526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6873994171610052527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caeb605cd9a3ef74f8fb2d33b6880d8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  systemTime: 0
+  systemLocalTime: 0.02
+  flowSpeed: 0.05
+  flowDirection: 180
+  useBeaufortScale: 1
+  beaufortScale: 2
+  turbulenceFactor: 0.23999998
+  waveScale: 0.5
+  lgWaveHeight: 0.04666669
+  lgWaveScale: 0.03125
+  waveHeight: 0.65
+  heightProjection: 1
+  useHeightProjection: 1
+  refractStrength: 0.5
+  reflectProjection: 1
+  reflectBlur: 0.25
+  aberrationScale: 0
+  specularPower: 1
+  roughness: 0.025
+  roughness2: 0.45
+  reflectTerm: 0
+  reflectSharpen: 0
+  showDepthMask: 0
+  showWorldMask: 0
+  cameraDistance: 1000
+  underwaterDepth: 5
+  useDX9Settings: 0
+  moduleObject: {fileID: 0}
+  suimonoVersionNumber: 2.1.11
+  showGeneral: 1
+  typeIndex: 0
+  editorIndex: 1
+  editorUseIndex: 1
+  enableCustomMesh: 0
+  cmScaleX: 1
+  cmScaleY: 1
+  lodIndex: 0
+  useLodIndex: 0
+  customMesh: {fileID: 0}
+  oceanScale: 4
+  enableCausticFX: 1
+  causticsFade: 0.122
+  causticsColor: {r: 1, g: 1, b: 1, a: 1}
+  enableTess: 1
+  useEnableTess: 1
+  waveTessAmt: 8
+  waveTessMin: 0
+  waveTessSpread: 0.08
+  enableInteraction: 1
+  dynamicReflectFlag: 1
+  enableReflections: 1
+  enableDynamicReflections: 1
+  useEnableReflections: 1
+  useEnableDynamicReflections: 1
+  useReflections: 1
+  useDynReflections: 1
+  reflectLayer: 1
+  reflectResolution: 3
+  reflectLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  reflectionDistance: 1200
+  reflectFallback: 1
+  customRefCubemap: {fileID: 0}
+  customRefColor: {r: 0.9, g: 0.9, b: 0.9, a: 1}
+  reflectionColor: {r: 1, g: 1, b: 1, a: 0.376}
+  enableCustomTextures: 0
+  customTexNormal1: {fileID: 0}
+  customTexNormal2: {fileID: 0}
+  customTexNormal3: {fileID: 0}
+  useTexNormal1: {fileID: 2800000, guid: 48e29dc2e9488474081bc20a42a364b9, type: 3}
+  useTexNormal2: {fileID: 2800000, guid: fdd39131993ce804da86a2e71c17a742, type: 3}
+  useTexNormal3: {fileID: 2800000, guid: fb77700eb10ac344db495df815b29823, type: 3}
+  showWaves: 0
+  customWaves: 0
+  localTime: 0.002
+  beaufortVal: 0.16666667
+  showShore: 0
+  shorelineHeight: 0.25
+  shorelineFreq: 1
+  shorelineScale: 3.55
+  shorelineSpeed: 4
+  shorelineNorm: 0
+  showSurface: 1
+  overallBright: 1
+  overallTransparency: 1
+  depthAmt: 0.064
+  shallowAmt: 0.057
+  depthColor: {r: 0.16, g: 0.281, b: 0.382, a: 1}
+  shallowColor: {r: 0.208, g: 0.373, b: 0.441, a: 0.784}
+  edgeAmt: 0.064
+  specularColor: {r: 0.063, g: 0.326, b: 0.375, a: 0.161}
+  sssColor: {r: 0, g: 0.324, b: 0.015, a: 0.239}
+  blendColor: {r: 0.36, g: 1, b: 0.867, a: 0.22}
+  overlayColor: {r: 0, g: 0, b: 0, a: 0}
+  showFoam: 0
+  enableFoam: 1
+  foamColor: {r: 0.912, g: 0.874, b: 0.791, a: 1}
+  foamScale: 0.94
+  foamSpeed: 0
+  edgeFoamAmt: 0.933
+  shallowFoamAmt: 1
+  hFoamHeight: 0.65
+  hFoamSpread: 0.276
+  heightFoamAmt: 0.85
+  showUnderwater: 0
+  underwaterColor: {r: 0.034, g: 0.102, b: 0.154, a: 0.404}
+  underLightFactor: 1
+  underRefractionAmount: 0.005
+  underRefractionScale: 0.5
+  underRefractionSpeed: 1
+  underwaterFogDist: 34
+  underwaterFogSpread: 0
+  enableUnderwater: 1
+  enableUnderDebris: 1
+  underBlurAmount: 1
+  underDarkRange: 50
+  setScale: 1
+  currentAngles: {x: 0, y: 0, z: 0}
+  currentPosition: {x: 0, y: 0, z: 0}
+  newPos: {x: 0, y: 0, z: 0}
+  spacer: 0
+  setScaleX: 0
+  setScaleZ: 0
+  offamt: 0
+  savePos: {x: 0, y: 0}
+  recPos: {x: 0, y: 0}
+  _suimono_uv: {x: 0, y: 0}
+  showSimpleEditor: 1
+  useShader: {fileID: 0}
+  currUseShader: {fileID: 0}
+  shader_Surface: {fileID: 4800000, guid: 5af3fd41baf694e4db80b54ea540749f, type: 3}
+  shader_Scale: {fileID: 4800000, guid: 9cd46d8afbd9f2d488f9a1a0705f5386, type: 3}
+  shader_Under: {fileID: 4800000, guid: 1fce65572bf3e2b4ead0b3931f2732db, type: 3}
+  presetFiles:
+  - Blue Ocean with Waves
+  - Buoyancy Scene Preset
+  - Calm Carribean Blue
+  - Calm Clear
+  - Calm Refraction Only
+  - Cartoon
+  - Deep Dark Ocean
+  - Demo River Example
+  - Hot Spring Murky
+  - Lava Flow
+  - Mirror Reflection
+  - Mud Thick Brown
+  - Oil Slick
+  - Swimming Pool
+  presetIndex: 0
+  presetUseIndex: 0
+  presetFileIndex: 0
+  presetFileUseIndex: 0
+  presetOptions: []
+  showPresets: 0
+  presetStartTransition: 0
+  presetTimer: 1
+  currentPresetFolder: Built-In Presets
+  currentPresetName: 
+  presetTransitionCurrent: 0
+  presetTransitionTime: 5
+  presetTransIndexFrm: 0
+  presetTransIndexTo: 0
+  presetToggleSave: 0
+  presetsLoaded: 0
+  presetDataArray:
+  - <color_depth>(0.160,0.281,0.382,1.000)
+  - <color_shallow>(0.208,0.373,0.441,0.784)
+  - <color_blend>(0.360,1.000,0.867,0.220)
+  - <color_overlay>(0.000,0.000,0.000,0.000)
+  - <color_caustics>(1.000,1.000,1.000,1.000)
+  - <color_reflection>(1.000,1.000,1.000,0.376)
+  - <color_specular>(0.063,0.326,0.375,0.161)
+  - <color_sss>(0.000,0.324,0.015,0.239)
+  - <color_foam>(0.912,0.874,0.791,1.000)
+  - <color_underwater>(0.034,0.102,0.154,0.404)
+  - <data_beaufort>(2)
+  - <data_flowdir>(180)
+  - <data_flowspeed>(0.05)
+  - <data_wavescale>(0.5)
+  - <data_customwaves>(False)
+  - <data_waveheight>(0.65)
+  - <data_heightprojection>(1)
+  - <data_turbulence>(0.24)
+  - <data_lgwaveheight>(0.04666669)
+  - <data_lgwavescale>(0.03125)
+  - <data_shorelineheight>(0.25)
+  - <data_shorelinefreq>(1)
+  - <data_shorelinescale>(3.55)
+  - <data_shorelinespeed>(4)
+  - <data_shorelinenorm>(0)
+  - <data_overallbright>(1)
+  - <data_overalltransparency>(1)
+  - <data_edgeamt>(0.064)
+  - <data_depthamt>(0.064)
+  - <data_shallowamt>(0.057)
+  - <data_refractstrength>(0.5)
+  - <data_aberrationscale>(0)
+  - <data_causticsfade>(0.122)
+  - <data_reflectprojection>(1)
+  - <data_reflectblur>(0.25)
+  - <data_reflectterm>(0)
+  - <data_reflectsharpen>(0)
+  - <data_roughness>(0.025)
+  - <data_roughness2>(0.45)
+  - <data_enablefoam>(True)
+  - <data_foamscale>(0.94)
+  - <data_foamspeed>(0)
+  - <data_edgefoamamt>(0.933)
+  - <data_shallowfoamamt>(1)
+  - <data_heightfoamamt>(0.85)
+  - <data_hfoamheight>(0.65)
+  - <data_hfoamspread>(0.276)
+  - <data_enableunderdebris>(True)
+  - <data_underlightfactor>(1)
+  - <data_underrefractionamount>(0.005)
+  - <data_underrefractionscale>(0.5)
+  - <data_underrefractionspeed>(1)
+  - <data_underbluramount>(1)
+  - <data_underwaterfogdist>(34)
+  - <data_underwaterfogspread>(0)
+  - <data_underDarkRange>(50)
+  - 
+  presetDataString: '<color_depth>(0.160,0.281,0.382,1.000)
+
+    <color_shallow>(0.208,0.373,0.441,0.784)
+
+    <color_blend>(0.360,1.000,0.867,0.220)
+
+    <color_overlay>(0.000,0.000,0.000,0.000)
+
+    <color_caustics>(1.000,1.000,1.000,1.000)
+
+    <color_reflection>(1.000,1.000,1.000,0.376)
+
+    <color_specular>(0.063,0.326,0.375,0.161)
+
+    <color_sss>(0.000,0.324,0.015,0.239)
+
+    <color_foam>(0.912,0.874,0.791,1.000)
+
+    <color_underwater>(0.034,0.102,0.154,0.404)
+
+    <data_beaufort>(2)
+
+    <data_flowdir>(180)
+
+    <data_flowspeed>(0.05)
+
+    <data_wavescale>(0.5)
+
+    <data_customwaves>(False)
+
+    <data_waveheight>(0.65)
+
+    <data_heightprojection>(1)
+
+    <data_turbulence>(0.24)
+
+    <data_lgwaveheight>(0.04666669)
+
+    <data_lgwavescale>(0.03125)
+
+    <data_shorelineheight>(0.25)
+
+    <data_shorelinefreq>(1)
+
+    <data_shorelinescale>(3.55)
+
+    <data_shorelinespeed>(4)
+
+    <data_shorelinenorm>(0)
+
+    <data_overallbright>(1)
+
+    <data_overalltransparency>(1)
+
+    <data_edgeamt>(0.064)
+
+    <data_depthamt>(0.064)
+
+    <data_shallowamt>(0.057)
+
+    <data_refractstrength>(0.5)
+
+    <data_aberrationscale>(0)
+
+    <data_causticsfade>(0.122)
+
+    <data_reflectprojection>(1)
+
+    <data_reflectblur>(0.25)
+
+    <data_reflectterm>(0)
+
+    <data_reflectsharpen>(0)
+
+    <data_roughness>(0.025)
+
+    <data_roughness2>(0.45)
+
+    <data_enablefoam>(True)
+
+    <data_foamscale>(0.94)
+
+    <data_foamspeed>(0)
+
+    <data_edgefoamamt>(0.933)
+
+    <data_shallowfoamamt>(1)
+
+    <data_heightfoamamt>(0.85)
+
+    <data_hfoamheight>(0.65)
+
+    <data_hfoamspread>(0.276)
+
+    <data_enableunderdebris>(True)
+
+    <data_underlightfactor>(1)
+
+    <data_underrefractionamount>(0.005)
+
+    <data_underrefractionscale>(0.5)
+
+    <data_underrefractionspeed>(1)
+
+    <data_underbluramount>(1)
+
+    <data_underwaterfogdist>(34)
+
+    <data_underwaterfogspread>(0)
+
+    <data_underDarkRange>(50)
+
+'
+  dir: G:/PROJECTS/SUIMONO 2.0/SUIMONO_V2.2.0 (base 2019.4)/Assets\SUIMONO - WATER
+    SYSTEM 2/RESOURCES/
+  baseDir: SUIMONO - WATER SYSTEM 2/RESOURCES/
+  presetSaveName: my custom preset
+  presetFile: 
+  workData: 
+  workData2: 
+  materialPath: 
+  oceanUseScale: 0
+  useSc: 0
+  setSc: {x: 0, y: 0}
+  scaleOff: {x: 0, y: 0}
+  i: 32
+  layerName: 
+  skybox: {fileID: 2100000, guid: d4ddea6029592ec40aad6d5080007bda, type: 2}
+  d: 2
+  dn: 2
+  pdir: G:/PROJECTS/SUIMONO 2.0/SUIMONO_V2.2.0 (base 2019.4)/Assets\SUIMONO - WATER
+    SYSTEM 2/RESOURCES//SUIMONO_PRESETS_Built-In Presets
+  f: 28
+  px: 14
+  nx: 28
+  ax: 14
+  n: 28
+  tempPresetDirs: []
+  tempPresetFiles: []
+  oldName: G:/PROJECTS/SUIMONO 2.0/SUIMONO_V2.1.6 (base 5.0) - Dev/Assets/SUIMONO
+    - WATER SYSTEM 2/RESOURCES//SUIMONO_PRESETS_Built-In Presets/SUIMONO_PRESET_TestCartoon.txt
+  moveName: G:/PROJECTS/SUIMONO 2.0/SUIMONO_V2.1.6 (base 5.0) - Dev/Assets/SUIMONO
+    - WATER SYSTEM 2/RESOURCES//SUIMONO_PRESETS_Built-In Presets/SUIMONO_PRESET_Cartoon.txt
+  setNum: 0
+  key: data_underDarkRange
+  dat: 50
+  pFrom: 22
+  pTo: 24
+  dx: 57
+  datFile: {fileID: 4900000, guid: c97569cf0ac594f4b93248d1c7574974, type: 3}
+  dataS:
+  - 50
+  retData: 
+  retVal: 1

@@ -1,0 +1,96 @@
+---------------------------------------------------
+SUIMONO - INTERACTIVE WATER SYSTEM for UNITY
+
+Copyright ©2021 Tanuki Digital
+Version 2.1.13
+---------------------------------------------------
+
+
+----------------------------
+THANK YOU FOR YOUR PURCHASE!
+----------------------------
+Thank you for supporting SUIMONO!
+It's people like you that allow us to build and improve our software! 
+if you have any questions, comments, or requests for new features
+please visit the Tanuki Digital Forums and post your feedback:
+
+http://tanukidigital.com/forum/
+
+
+
+----------------------
+REGISTER YOUR PURCHASE
+----------------------
+Did you purchase Suimono - Interactive Water System on the Unity Asset Store?
+Registering at Tanuki Digital.com gives you immediate access to new downloads, updates, and exclusive content as well as Suimono and Tanuki Digital news and info.  Fill out the registration forum using your Asset Store "OR" Order Number here:
+
+http://www.tanukidigital.com/suimono/index.php?register=1
+
+
+----------------------
+DOCUMENTATION
+----------------------
+Please read the Suimono 2.0 documentation files for more in-depth customization information.
+http://tanukidigital.com/suimono/documentation
+
+
+-------------
+INSTALLATION
+-------------
+
+I. IMPORT SUIMONO BASE FILES INTO YOUR PROJECT
+
+Go to: "Assets -> Import Package -> Custom Package..." in the Unity Menu. Then select the
+"Suimono_watersystem_v2.x.unitypackage" file.  This will open an import dialog box.
+Click the import button and all the Suimono files will be imported into your project list.
+
+A Note about Demo Content... The Suimono installer file contains a large number of files for the advanced demo scene.  If you don’t need this scene in your project, you can disable importing the demo content by unchecking the SUIMONO - WATER SYSTEM 2/_DEMO folder in the import dialog window before importing.
+
+
+II. ADD THE SUIMONO PREFABS TO YOUR SCENE
+
+1) Drag the SUIMONO_Module prefab (located in the "/PREFABS" folder) into your scene.
+2) Drag the SUIMONO_Surface prefab (located in the "/PREFABS" folder) into your scene.
+3) Add your main scene camera to the 'scene camera object' slot on the module.
+4) (NEW!) Add your main scene directional light to the 'scene light object' slot on the module.
+5) (NEW!) Go to your scene camera object and (if necessary) add the Underwater component by going to Component-->Image Effects-->Suimono-->UnderwaterFX
+
+
+That's it for the basic installation!  You can now position “SUIMONO_Surface” anywhere in your scene that you like, and even rename the “Suimono_Surface” object to anything you wish. This object can also be scaled to fit your scene, but please see the scale note below!
+More in depth installation and setup instructions, as well as a helpful FAQ can be found in the full documentation PDF, available here: http://tanukidigital.com/suimono/documentation
+
+A NOTE ABOUT UPGRADES:
+It's recommended to delete your current Suimono scene objects, the suimono effect on your camera, and then completely delete the Suimono folder in the Project list, and delete any suimono specific game layers before installing this update.
+
+
+
+----------------------------
+CUSTOMIZATION NOTES
+----------------------------
+DEFINING YOUR SCENE CAMERA:
+Suimono tracks a scene camera in order to determine when to initiate the underwater switch. By default Suimono will track the scene camera object that has it’s object tag set to “MainCamera”. However, you can customize which camera Suimono tracks (under the module configuration tab) by changing the 'Camera Mode' to 'Manual Select Camera' and then adding your camera to the 'Scene Camera Object'”' attribute before running your scene.  If you're game is designed around a 3rd person controller, you'll want to designate your character object as the "Scene Track Object"... otherwise for most first-person games, the scene track object would be the same as the scene camera object.  If the scene track object is left vacant it Suimono will automatically set it to the scene camera object specified above.
+
+
+
+
+-------------------------------------------------------------
+A note about SRP (Scriptable Render Pipeline) in Unity 2018+ 
+-------------------------------------------------------------
+(March 2020)
+Many people have asked about the "new" SRP system in Unity.  Because Unity's new HDRP and URP(LWRP) Render Pipeline is still under active development, and because of the massive differences between these and the current default rendering system, I've decided to take a "wait and see approach" to when/if Suimono will support these modes.  Unfortunately the amount of work involved in upgrading to SRP is not trivial.  Once SRP is more stable I will take another look and reconsider if I will rewrite Suimono to support them.
+
+
+
+
+-----------------------------
+RELEASE NOTES - Version 2.1.13
+-----------------------------
+BUG FIXES:
+Fixed Preset Error causing "Resources" bug in Console.
+
+
+
+----------------------------
+CREDITS
+----------------------------
+The Trees, Rocks, and Crate objects included in the advanced demo scene have been adapted from Public Domain assets, created by Nobiax.  Check out his amazing work on the Unity Asset Store!
