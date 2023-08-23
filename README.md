@@ -1,6 +1,6 @@
 # ShipStability
 
-![Ship Stability](link_to_image.jpg)
+![Ship Stability](![Ship Github 00_00_08 20230823-233233](https://github.com/blight15a/ShipStability/assets/125852184/7131cc1f-9cfe-481c-b5f2-058383a9c41a))
 
 Welcome to the world of ship stability! Our educational app, developed using the power of Unity, offers an engaging and interactive platform to delve into the fascinating realm of ship stability. Whether you're a maritime enthusiast, a student of naval architecture, or simply curious about the principles that keep ships afloat, this app is designed to provide you with a comprehensive and immersive learning experience.
 
