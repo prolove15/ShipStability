@@ -30,4 +30,4 @@ Embark on a journey of discovery with our Ship Stability Educational App. Unrave
 
 ## Watch the Video
 
-[![Watch the Video]([link_to_video_thumbnail.jpg](https://user-images.githubusercontent.com/125852184/262705022-8f4ccb30-06a2-49df-9bdb-302d5e4cb575.png))]([https://clipchamp.com/watch/bTYcmndWlbg](https://clipchamp.com/watch/bTYcmndWlbg)https://clipchamp.com/watch/bTYcmndWlbg)
+[![Watch the Video](https://user-images.githubusercontent.com/125852184/262705022-8f4ccb30-06a2-49df-9bdb-302d5e4cb575.png)](https://clipchamp.com/watch/bTYcmndWlbg)
